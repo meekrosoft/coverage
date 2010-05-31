@@ -2,5 +2,5 @@
 
 TEST(hello, helloX)
 {
-
+	ASSERT_TRUE(true);
 }
