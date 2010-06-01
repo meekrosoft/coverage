@@ -3,7 +3,6 @@
 ProgressState::ProgressState(unsigned int target)
 	: m_value(0), m_target(target)
 {
-
 }
 
 ProgressState::~ProgressState()
@@ -16,7 +15,7 @@ void ProgressState::setValue(int value)
 	{
 		m_value = 0;
 	}
-	else if(value > m_target)
+	else if(value > (int)m_target)
 	{
 		m_value = m_target;
 	}
