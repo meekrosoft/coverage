@@ -5,15 +5,15 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../src/ProgressState.cpp \
-../src/coverage.cpp 
+../src/coverage.test.cpp 
 
 OBJS += \
 ./src/ProgressState.o \
-./src/coverage.o 
+./src/coverage.test.o 
 
 CPP_DEPS += \
 ./src/ProgressState.d \
-./src/coverage.d 
+./src/coverage.test.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
